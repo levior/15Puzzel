@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="48108Mystic.359560491D6A1" Publisher="CN=FF87025C-307A-4FF5-8A74-DDAA35C28881" Version="0.7.9.2" />
+  <Properties>
+    <DisplayName>Простые пятнашки</DisplayName>
+    <PublisherDisplayName>Мистик(Mystic)</PublisherDisplayName>
+    <Logo>Assets\StoreLogoffffff.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App6.App">
+      <VisualElements DisplayName="Простые пятнашки" Logo="Assets\Logoffffff.png" SmallLogo="Assets\SmallLogoffffff.png" Description="App6" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen15.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
